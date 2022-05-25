@@ -1,0 +1,273 @@
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+body,
+p {
+   margin: 0;
+   padding: 0;
+}
+
+li {
+   list-style: none;
+}
+
+a {
+   display: inline-block;
+   text-decoration: none;
+   color: #EFEFEF;
+}
+
+img {
+   width: 100%;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   background: linear-gradient(180deg, rgba(3, 56, 244, 0.71) 0%, rgba(224, 37, 206, 0.79) 93.75%);
+   background-size: 400% 400%;
+   animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+   0% {
+      background-position: 0 25%;
+   }
+   25% {
+      background-position: 0 50%;
+   }
+   50% {
+      background-position: 75% 50%;
+   }
+   75% {
+      background-position: 50% 75%;
+   }
+   100% {
+      background-position: 0 25%;
+   }
+}
+
+.container {
+   width: 900px;
+   margin: 0 auto;
+}
+
+.wrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.block1 {
+   width: 400px;
+   padding: 20px;
+   background: rgba(196, 196, 196, 0.3);
+   border-radius: 10px;
+}
+
+.block2 {
+   width: 400px;
+   padding: 20px;
+   background: #FFFFFF;
+   border-radius: 10px;
+}
+
+.header__top {
+   display: flex;
+   justify-content: center;
+   align-items:center;
+   margin: 0 auto;
+   padding: 20px 0px 20px 0px;
+}
+
+.header__logo {
+   width: 200px;
+   height: 50px;
+}
+
+/* about */
+
+.about__content {
+   display: flex;
+   align-items: center;
+}
+
+.about__text {
+   display: flex;
+   flex-direction: column;
+   margin-left: 100px;
+}
+
+.about__logo {
+   width: 100px;
+   height: 100px;
+   border-radius: 93px;
+}
+
+.about__name {
+   font-weight: normal;
+   font-size: 25px;
+   line-height: 30px;
+   color: #CECACA;
+}
+
+.about__lastName {
+   font-weight: 500;
+   font-size: 35px;
+   line-height: 43px;
+   color: #FFFFFF; 
+}
+
+.about__work {
+   margin-top: 5px;
+   font-weight: bold;
+   font-size: 15px;
+   line-height: 18px;
+   color: #CECACA;
+}
+
+/* presentation */
+
+.bacground {
+   background: #545454;
+   border-radius: 5px;
+   padding: 10px 30px;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+
+}
+
+.text {
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 18px;
+   color: #FFFFFF;
+   text-transform: uppercase;
+}
+
+.presentation__aboutMe {
+   margin-top: 10px;
+}
+
+/* contacts */
+
+.contacts__list {
+   display: flex;
+   align-items: center;
+   background: rgba(196, 196, 196, 0.35);
+   border-radius: 10px;
+   margin: 10px 0;
+   padding: 10px 30px 10px 15px;
+   font-weight: normal;
+   font-size: 15px;
+   line-height: 18px;
+   color: #FFFFFF;
+}
+
+.nav {
+   margin-top: 20px;
+}
+
+.contacts__svg {
+   margin-right: 30px;
+}
+
+.contacts__title {
+   margin-top: 10px;
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 18px;
+   color: #FFFFFF;
+}
+
+/* my skills */
+
+.skills {
+   margin-top: 20px;
+}
+
+.skills__logo {
+   margin-top: 20px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.skills__img {
+   width: 50px;
+   height: 50px;
+}
+
+.skills__list {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.skills__text {
+   margin-top: 10px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 18px;  
+   color: #545454;
+}
+
+/* course */
+
+.languages {
+   margin-top: 20px;
+}
+
+.languages__title {
+   font-weight: bold;
+   font-size: 18px;
+   line-height: 18px;
+   color: #FFFFFF;
+}
+
+.languages__item {
+   margin-top: 10px;
+   background: rgba(196, 196, 196, 0.35);
+   border-radius: 10px;
+   padding: 10px 20px;
+}
+
+.languages__list {
+   margin-top: 5px;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 18px;
+   color: #FFFFFF;
+}
+
+.example__content {
+   margin-top: 20px;
+}
+
+.example__text {
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.footer {
+   margin-top: 20px;
+}
+
+.footer__content {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background: rgba(196, 196, 196, 0.35);
+   border-radius: 10px;
+   padding: 20px;
+}
+
+.footer__logo {
+   width: 50px;
+   height: 25px;
+}
